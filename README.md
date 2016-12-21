@@ -48,11 +48,12 @@ El uso del mouse es más fácil que el de las teclas pero implica que tenemos qu
 Para más detalles sobre las normas de funcionamiento del juego referirse a la sección "Rules" del propio menú.
 
 **_Retos:_**
-1. alunizar con éxito en el _menor **tiempo**_ posible
-2. alunizar con éxito usando la _menor cantidad de **combustible**_
-3. alunizar con éxito habiendo alcanzado la _mayor **altura**_ posible durante la maniobra
-4. alunizar con éxito con la _menor **velocidad**_ de impacto posible (siempre < 2m/s)
-5. alunizar con éxito consiguiendo la _mayor **puntuación**_ posible
+
+1. Alunizar con éxito en el _menor **tiempo**_ posible
+2. Alunizar con éxito usando la _menor cantidad de **combustible**_
+3. Alunizar con éxito habiendo alcanzado la _mayor **altura**_ posible durante la maniobra
+4. Alunizar con éxito con la _menor **velocidad**_ de impacto posible (siempre < 2m/s)
+5. Alunizar con éxito consiguiendo la _mayor **puntuación**_ posible
 
 Se adjuntan en la documentación pantallazos de algunos de los récords conseguidos en cada modalidad.
 Se anima a que se intenten superar dichos récords, si se puede. Todos los records se conseguido utilizando las teclas, el ratón se considera sólo modo entrenamiento y en un a versión futura será eliminado o cambiado.
