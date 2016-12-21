@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>JS Moon landing mission</title>
+      <meta charset="UTF-8">
+      <meta name="description" content="A lunar landing mission for Captain JS">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel='stylesheet' media='screen and (min-width: 721px)' href='css/maind.css'>
+      <link rel='stylesheet' media='screen and (max-width: 720px)' href='css/mainm.css'>
+      <!--
+         <link href='https://fonts.googleapis.com/css?family=Terminal+Dosis' rel='stylesheet' type='text/css' />
+         -->
+      <script src="js/mainjs.js"></script>
+   </head>
+   <body>
+      <div id="singlediv">
+         <ul id="singlelist">
+            <li id="singleoption">
+               <a href="#" onclick="togglemenu()">
+               <img id="singleimg" src="img/capJSbw.png" alt="captain JS">
+               </a>
+            </li>
+         </ul>
+      </div>
+      <!--
+         Thhis portion of the code treated separately
+         ca stands for CAptain JS
+         -->
+      <div class="container">
+         <div class="content">
+            <ul class="ca-menu">
+               <li class="menuelem">
+                  <a href="index.html">
+                     <span class="ca-icon">Play</span>
+                     <div class="ca-content">
+                        <!--<h2 class="ca-main"></h2>-->
+                        <h3 class="ca-sub">Start a new game</h3>
+                     </div>
+                  </a>
+               </li>
+               <li class="menuelem">
+                  <a href="#" onclick="displayrules()">
+                     <span class="ca-icon">Rules</span>
+                     <div class="ca-content">
+                        <!--<h2 class="ca-main"></h2>-->
+                        <h3 class="ca-sub">Read the instructions</h3>
+                     </div>
+                  </a>
+               </li>
+               <li class="menuelem">
+                  <a href="#" onclick="displayabout()">
+                     <span class="ca-icon">About</span>
+                     <div class="ca-content">
+                        <!--<h2 class="ca-main"></h2>-->
+                        <h3 class="ca-sub">Sources and credits</h3>
+                     </div>
+                  </a>
+               </li>
+            </ul>
+         </div>
+         <!-- content -->
+      </div>
+      <!-- container -->
+      <div id="rules">
+         <!--    <div class="rulestext">-->
+         <p>Game rules are really simple, game itself is not: you must land no faster than 2 m/s before fuel runs out</p>
+         <br>
+         <p>In normal mode, press and hold any key to turn engines ON, release to turn OFF. In training mode, every mouse click toggles engines ON / OFF</p>
+         <br>
+         <p>Types of landing</p>
+         <p>FASTEST : land as quick as you can. Time counts</p>
+         <p>ECONOMICAL : land using as little fuel as you can. Fuel is expensive</p>
+         <p>HIGHEST : go up as much as you can before landing. How high can you go?</p>
+         <p>SMOOTHEST : land as slowly as you can. How soft are you?</p>
+         <p>BEST MOVE : watch your score. Fuel savings counts most, followed by fast landing time. Height attained also counts, but much less than fuel and time and finally landing speed is not important provided it's below 2 m/s</p>
+         <!--   </div>
+            -->
+      </div>
+      <!-- rules -->       
+      <div id="about">
+         <p>Game created by Jordi de Lucio as LMSGI exercise</p>
+         <br>
+         <p>Credits</p>
+         <p>Moon image courtesy from <a href="http://nssdc.gsfc.nasa.gov/imgcat">NASA</a></p>
+         <p>Rocket and explosion from <a href="https://openclipart.org/detail/16326/spacecraft">OpenClipArt</a></p>
+         <p>Captain Javascript from <a href="http://cliparts.co/astronaut-pictures-for-kids">Cliparts.co</a></p>
+         <p>Asteriod storm and Astronaut ejection from <a href="https://www.tumblr.com/search/starry%20sky%20gif">Tumblr.com</a></p>
+         <br>
+         <p>Animation inspiration from <a href="https://tympanus.net">Tympanus</a></p>
+         <br>
+         <p>Special thanks to my son Jordi who tested the game and achieved the records</p>
+      </div>
+      <!-- about -->     
+   </body>
+</html>

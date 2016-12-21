@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>JS Moon landing mission</title>
+      <meta charset="UTF-8">
+      <meta name="description" content="A lunar landing mission for Captain JS">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel='stylesheet' media='screen and (min-width: 721px)' href='css/d.css'>
+      <link rel='stylesheet' media='screen and (max-width: 720px)' href='css/m.css'>
+      <script src="js/js.js"></script>
+   </head>
+   <body>
+      <div id="nave">
+         <img id="spaceship" src="img/rocket-off.png" alt="img nave">
+      </div>
+      <div class="a">
+         <div id="showm">show menu</div>
+         <ul id="cpanel">
+            <li><meter id="velocidadmeter" value="0" min="-20" low="-2" optimum="1" high="2" max="20"></meter> Speed <span id="velocidad"></span> m/s</li>
+            <li>
+               <p></p>
+            </li>
+            <li><meter id="alturameter" value="60" min="0" low="10" high="50" max="60"></meter> Height <span id="altura">60</span> m</li>
+            <li>
+               <p></p>
+            </li>
+            <li><meter id="fuelmeter" value=100 min="0" low="50" high="100" max="100"></meter> Fuel <span id="fuel">100</span> ltrs</li>
+            <li>
+               <p></p>
+            </li>
+            <li>
+               <div id="loader"></div>
+               <span> Time </span><span id="tiempo">t</span> sec
+            </li>
+            <li>
+               <p></p>
+            </li>
+            <li>
+               <p></p>
+            </li>
+            <li>
+               <p></p>
+            </li>
+            <li>
+               <div></div>
+               <span>Max height </span><span id="maxaltura">60</span> m
+            </li>
+            <li>
+               <p></p>
+            </li>
+            <li>
+               <div></div>
+               <span>Score </span><span id="puntuacion">0</span>
+            </li>
+         </ul>
+      </div>
+      <div class="b">b</div>
+      <div class="c">
+         <div id="hidem">hide menu</div>
+         <ul id="menu">
+            <li><a href="index.html">Again</a></li>
+            <!--
+               <li><a class="selectedoption" href="index.html">Again</a></li>
+               <li><a href="instructions.html">Instructions</a></li>
+               <li><a href="about.html">About</a></li>
+               -->
+            <li><a href="main.html">Back</a></li>
+         </ul>
+      </div>
+      <div class="d"><img src="img/moon.jpg" alt="Landing surface"/></div>
+   </body>
+</html>
