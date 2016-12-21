@@ -1,15 +1,15 @@
 # JavaScript
-Una nueva misión del Capitán JavaScript
+## Una nueva misión del Capitán JavaScript
 
-Versión v1 del juego "Lunar Landing"
+### Versión v1 del juego "Lunar Landing"
 
 El juego incluye:
 
-HTML, CSS y JS de las versiones escritorio y mobile
-Todas las IMG correspondientes
-La correcta estructura de carpetas
-Código validado, indentado y miminizado
-Imágenes optimizadas
+1. *HTML**, **CSS** y **JS** de las versiones escritorio y mobile
+2. Todas las **IMG** correspondientes
+3. La correcta _estructura_ de carpetas
+4. Código _validado_, _indentado_ y _miminizado_
+5. Imágenes _optimizadas_
 
 Estructura:
 Consta de dos páginas: main (principal) e index.
