@@ -1,0 +1,135 @@
+html,body{
+    font-family: verdana;
+    font-size: 20px;
+    height:100%;padding:0px;margin:0px;
+    background-color: black;
+    background-image: url("../img/asteroid_storm.gif"); 
+    background-size: contain; 
+    background-repeat: repeat-x;
+}
+.a,.b,.c{
+    display:inline-block;width:33.33%;height:100%;float:left;
+}
+.d {
+  background-color:black;height:17%;width:100%;position:fixed;bottom:0px;
+}
+.d img{
+  height:100%;width:100%;
+}
+#nave{
+    text-align:center;position:fixed;top:10%;width:100%;height:20%;
+}
+#nave img{
+    height:100%;
+}
+#cpanel{
+  background-color:transparent;
+  list-style-type:none;
+  color:yellow;
+  padding-top: 10%;
+}
+#hidem,#showm{
+    display:none
+}
+
+.c ul{
+  background-color:transparent;
+  list-style-type:none;
+  padding-top: 3%;  
+}
+.c ul li{
+  display: inline;
+  color:coral;     
+}
+.c ul li a{
+  color:white;
+  text-decoration: none;
+}
+.c ul li a:hover{
+  color:black;
+  background-color: white;
+}
+
+/*
+.a{
+  width:20%;
+}
+.b{
+  width:40%;
+}
+.c{
+  width:40%;
+}
+*/
+.c ul{
+  background-color:transparent;
+  list-style-type:none;
+  padding-top: 10%;
+  padding-left: 12%;
+}
+.c ul li{
+  display: inline;
+  /*color:coral;*/     
+}
+.c ul li a{
+  color:coral;
+  text-decoration: none;
+}
+.c ul li a:hover{
+  color:black;
+  background-color: coral;
+}
+.selectedoption{
+    /*background-color: coral;
+    color:black;
+    */    
+    font-weight: bold;
+    font-size: 24px;  
+}
+
+/*
+LOADER
+*/
+#loader {
+  display:inline-block;
+    border: 7px solid white;
+  -webkit-animation: spin 1s linear infinite;
+  animation: spin 1s linear infinite;
+  border-top: 10px solid #ff0;
+  border-right: 10px solid #000;
+  border-bottom: 10px solid #ff0;
+  border-left: 10px solid #000;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+
+/*@-webkit-keyframes spin {
+  0% { 
+    -webkit-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+*/
+@keyframes spin {
+  0% { 
+    -webkit-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
