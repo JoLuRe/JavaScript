@@ -3,10 +3,7 @@ body{
     width:100%;
     padding:0px;
     margin:0px;
-    /*background-color: limegreen;*/
-    /*background-image: url("../img/starrynight.jpg");*/
     background-image: url("../img/starrynight.gif");
-    /*background-size: contain;*/
 }
 div{
     display:inline-block;
@@ -35,22 +32,8 @@ div{
     margin:0px;
     padding:0px;
 }
-/*ul{
-    list-style-type:none;
-}
-ul li{
-}
-ul li a{
-    text-decoration: none; 
 
-}
-ul li a img{
-    height:100%;
-    width:100%;
-}
-*/
 .menuelem {
-    /*display:none;*/
 	margin: auto;
 }
 
