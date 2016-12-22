@@ -3,16 +3,16 @@ _____
 La nau comença en un punt de l'espai, amb motor parat i dipòsit ple.
 
 Això vol dir que:
-Altura (t=0) = Altura_inicial
-Fuel (t=0) = Dipòsit_ple
-Velocitat (t=0) = 0
-Motor (t=0) = off
-a = g
+* Altura (t=0) = _Altura_inicial_
+* Fuel (t=0) = _Dipòsit_ple_
+* Velocitat (t=0) = 0
+* Motor (t=0) = _off_
+* a = _g_
 
 Si no fem res, la nau va caient per pes, sense consumir fuel però accelerant cada cop més.
 A mida que cau:
 
-Velocitat -> augmenta (valor positiu, es considera que la velocitat positiva ens acosta al punt d'aterratge)
+> Velocitat -> augmenta (valor positiu, es considera que la velocitat positiva ens acosta al punt d'aterratge)
 Fuel -> no varia
 Altura -> decreix perillosament (perquè com menys altura queda més a prop som de colisionar si anem massa ràpids)
 
@@ -28,10 +28,10 @@ caiguda lliure.
 Quan es prem una tecla el motor s'engega i quan s'allibera s'apaga.
 L'efecte de motor ON és:
 
-a = -g (passem a contrarrestar la gravetat)
-Velocitat -> disminueix (valors negatius ens allunyen del punt d'aterratge)
-Fuel -> disminueix perquè es consumeix
-Altura -> creix (ens allunyem de la lluna)
+* a = _-g_ (passem a contrarrestar la gravetat)
+* _Velocitat_ -> disminueix (valors negatius ens allunyen del punt d'aterratge)
+* _Fuel_ -> disminueix perquè es consumeix
+* _Altura_ -> creix (ens allunyem de la lluna)
 
 A nivell de display, motor ON té una imatge i motor OFF en té una altra sense cua de foc.
 
